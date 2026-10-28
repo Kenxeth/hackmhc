@@ -15,6 +15,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "http://127.0.0.1:3000",
+        "https://hackmhc.vercel.app",
     ],
     # Allow local frontend dev on any port (3000, 3001, etc.) and Chrome extension origins.
     allow_origin_regex=r"^(https?://(localhost|127\.0\.0\.1|0\.0\.0\.0)(:\d+)?|chrome-extension://.*)$",
